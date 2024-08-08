@@ -51,8 +51,6 @@ use: &use
   type: select
   use:
     - 订阅一
-    - 订阅二
-    - 本地配置
 
 # 订阅链接
 # 对于订阅来说，path 为选填项，但建议启用
@@ -62,15 +60,6 @@ proxy-providers:
     <<: *p
     path: ./proxy_provider/订阅一.yaml
     url: "https://service-fq7wo97s-1323936013.hk.tencentapigw.cn/link/H7pEeaRvpWie9TZz?clash=1"
-
-  订阅二:
-    <<: *p
-    path: ./proxy_provider/订阅二.yaml
-    url: "https://example.com/api/v1/client/subscribe?token=ilovechina"
-
-  本地配置:
-    <<: *p
-    path: ./proxy_provider/本地配置.yaml
 
 # 规则订阅
 rule-providers:
