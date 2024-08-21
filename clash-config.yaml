@@ -45,3 +45,63 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
+  -
+    name: '台湾 A91 | 日常 高速 流媒体 ChatGPT'
+    type: vmess
+    server: nbyqf.downca.potatoeswater.com
+    port: 39260
+    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '台湾 B91 | 日常 高速 流媒体 ChatGPT'
+    type: vmess
+    server: wixyl.u92.dfnode.top
+    port: 39260
+    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '法国 A92 | 奥运特供 日常 高速'
+    type: vmess
+    server: ahrog.downca.potatoeswater.com
+    port: 39270
+    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '越南 B91 | 特殊 高速 流媒体'
+    type: vmess
+    server: ropqu.u92.dfnode.top
+    port: 19366
+    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '日本 A91 | 日常 高速 流媒体'
+    type: vmess
+    server: cmrvl.downca.potatoeswater.com
+    port: 39262
+    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '日本 B91 | 日常 高速 流媒体'
+    type: vmess
+    server: dpwtg.u92.dfnode.top
+    port: 19262
+    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
