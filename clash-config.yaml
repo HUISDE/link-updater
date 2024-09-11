@@ -1,4 +1,18 @@
 proxies:
+  - { name: '🇸🇬新加坡 1x', type: ss, server: ni8.gy2.xn--rcyy4g.com, port: 42729, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇯🇵日本原生 1x', type: ss, server: ni8.gy5.wenrouyun.cn, port: 52530, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇯🇵日本 1x', type: ss, server: ni8.gy2.xn--rcyy4g.com, port: 22225, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇭🇰香港 1x', type: ss, server: ni8.gy2.xn--rcyy4g.com, port: 39210, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇭🇰香港2-原生 1x', type: ss, server: ni8.gy5.wenrouyun.cn, port: 38896, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇺🇸美国 1x', type: ss, server: ni8.gy2.xn--rcyy4g.com, port: 40824, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇺🇸美国2 1x', type: ss, server: 1.gy.xn--rcyy4g.com, port: 32262, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇨🇦加拿大 1x', type: ss, server: ni8.gy2.xn--rcyy4g.com, port: 16943, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇩🇪德国 1x', type: ss, server: ni8.gy5.wenrouyun.cn, port: 15092, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇰🇷韩国 2x', type: ss, server: ni8.gy5.wenrouyun.cn, port: 29082, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇪🇸西班牙 1x', type: ss, server: 1.gy.xn--rcyy4g.com, port: 23731, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: 备用, type: ss, server: cloudgd.coemn.com, port: 21878, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: '🇦🇪迪拜 1x', type: ss, server: 1.gy.xn--rcyy4g.com, port: 15701, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
+  - { name: 日本-直连, type: ss, server: cmi.jp1.ty7.fun, port: 2345, cipher: chacha20-ietf-poly1305, password: 6cc54963-8471-46cf-8c56-dfabcbd251b1, udp: true }
   - {name: 🇯🇵H2 日本01 JPT, server: jp1.netbridge.uk, port: 10000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: jp1.netbridge.uk, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵H2 日本02  JPT, server: jp1.netbridge.uk, port: 20000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: jp1.netbridge.uk, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵H2 日本03  JPT, server: jp1.netbridge.uk, port: 30000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: jp1.netbridge.uk, skip-cert-verify: false, udp: true}
