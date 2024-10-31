@@ -15,93 +15,18 @@ proxies:
   - {name: 🇺🇸H2 美国01 CLA, server: usa-j1.netbridge.uk, port: 1000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸H2 美国02 CLA, server: usa-j1.netbridge.uk, port: 2000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸H2 美国03 CLA, server: usa-j1.netbridge.uk, port: 3000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
-  -
-    name: ' 俄罗斯 B | 应急 '
-    type: vmess
-    server: epgmj.u92.dfnode.top
-    port: 30002
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '俄罗斯 A | 低速'
-    type: vmess
-    server: ducsh.downca.potatoeswater.com
-    port: 30002
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '澳大利亚 A | 高速 '
-    type: vmess
-    server: jaxld.downca.potatoeswater.com
-    port: 39310
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '台湾 A91 | 日常 高速 流媒体 ChatGPT'
-    type: vmess
-    server: nbyqf.downca.potatoeswater.com
-    port: 39260
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '台湾 B91 | 日常 高速 流媒体 ChatGPT'
-    type: vmess
-    server: wixyl.u92.dfnode.top
-    port: 39260
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '法国 A92 | 奥运特供 日常 高速'
-    type: vmess
-    server: ahrog.downca.potatoeswater.com
-    port: 39270
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '越南 B91 | 特殊 高速 流媒体'
-    type: vmess
-    server: ropqu.u92.dfnode.top
-    port: 19366
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '日本 A91 | 日常 高速 流媒体'
-    type: vmess
-    server: cmrvl.downca.potatoeswater.com
-    port: 39262
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
-  -
-    name: '日本 B91 | 日常 高速 流媒体'
-    type: vmess
-    server: dpwtg.u92.dfnode.top
-    port: 19262
-    uuid: 466622a0-f2cd-3375-854b-1c4ef5993ccb
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: download.windowsupdate.com
+  - { name: '🇸🇬新加坡 1x', type: ss, server: cs2.ni8.me, port: 42729, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇯🇵日本原生 1x', type: ss, server: gy.ni8.world, port: 53185, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇯🇵日本 1x', type: ss, server: gy.ni8.world, port: 22225, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇭🇰香港 1x', type: ss, server: gy.ni8.world, port: 39210, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇭🇰香港IEPL 2x', type: ss, server: sg.ie.ni8.pro, port: 11820, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇭🇰香港2-原生 1x', type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '台湾 1x', type: ss, server: gy.ni8.world, port: 42481, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇺🇸美国 1x', type: ss, server: cs2.ni8.me, port: 40824, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇺🇸美国2 1x', type: ss, server: gy.ni8.world, port: 32262, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇨🇦加拿大 1x', type: ss, server: cs2.ni8.me, port: 16943, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇬🇧英国原生 1x', type: ss, server: gy.ni8.world, port: 43530, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇩🇪德国 1x', type: ss, server: gy.ni8.world, port: 15092, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇰🇷韩国 2x', type: ss, server: cs2.ni8.me, port: 29082, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '🇪🇸西班牙 1x', type: ss, server: cs2.ni8.me, port: 23731, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
+  - { name: '备用 2x', type: ss, server: cloudgd.coemn.com, port: 21878, cipher: chacha20-ietf-poly1305, password: 9ebca06d-fb7d-459e-92da-27b16cfeedf6, udp: true }
