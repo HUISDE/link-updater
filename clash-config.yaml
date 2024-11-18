@@ -15,66 +15,19 @@ proxies:
   - {name: 🇺🇸H2 美国01 CLA, server: usa-j1.netbridge.uk, port: 1000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸H2 美国02 CLA, server: usa-j1.netbridge.uk, port: 2000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸H2 美国03 CLA, server: usa-j1.netbridge.uk, port: 3000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - { name: '🇭🇰 香港 01', type: ss, server: hk.miaolianyunapp.com, port: 51101, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 02', type: ss, server: hk.miaolianyunapp.com, port: 51102, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 03', type: ss, server: hk.miaolianyunapp.com, port: 51103, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 04', type: ss, server: hk.miaolianyunapp.com, port: 51104, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 05', type: ss, server: hk.miaolianyunapp.com, port: 51105, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 06', type: ss, server: hk.miaolianyunapp.com, port: 51106, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 07', type: ss, server: hk.miaolianyunapp.com, port: 51107, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 08', type: ss, server: hk.miaolianyunapp.com, port: 51108, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 09', type: ss, server: hk.miaolianyunapp.com, port: 51109, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 10', type: ss, server: hk.miaolianyunapp.com, port: 51110, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 11', type: ss, server: hk.miaolianyunapp.com, port: 51111, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 12', type: ss, server: hk.miaolianyunapp.com, port: 51112, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 13', type: ss, server: hk.miaolianyunapp.com, port: 51113, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 14', type: ss, server: hk.miaolianyunapp.com, port: 51114, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 15', type: ss, server: hk.miaolianyunapp.com, port: 51115, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 16', type: ss, server: hk.miaolianyunapp.com, port: 51116, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 17', type: ss, server: hk.miaolianyunapp.com, port: 51117, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇭🇰 香港 18', type: ss, server: hk.miaolianyunapp.com, port: 51118, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 01', type: ss, server: jp.miaolianyunapp.com, port: 51119, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 02', type: ss, server: jp.miaolianyunapp.com, port: 51120, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 03', type: ss, server: jp.miaolianyunapp.com, port: 51121, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 04', type: ss, server: jp.miaolianyunapp.com, port: 51122, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 05', type: ss, server: jp.miaolianyunapp.com, port: 51123, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 06', type: ss, server: jp.miaolianyunapp.com, port: 51124, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 07', type: ss, server: jp.miaolianyunapp.com, port: 51125, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 08', type: ss, server: jp.miaolianyunapp.com, port: 51126, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 09', type: ss, server: jp.miaolianyunapp.com, port: 51127, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 10', type: ss, server: jp.miaolianyunapp.com, port: 51128, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 11', type: ss, server: jp.miaolianyunapp.com, port: 51129, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 12', type: ss, server: jp.miaolianyunapp.com, port: 51130, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 13', type: ss, server: jp.miaolianyunapp.com, port: 51131, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 14', type: ss, server: jp.miaolianyunapp.com, port: 51132, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇯🇵 日本 15', type: ss, server: jp.miaolianyunapp.com, port: 51133, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 01', type: ss, server: sg.miaolianyunapp.com, port: 51135, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 02', type: ss, server: sg.miaolianyunapp.com, port: 51136, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 03', type: ss, server: sg.miaolianyunapp.com, port: 51137, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 04', type: ss, server: sg.miaolianyunapp.com, port: 51138, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 05', type: ss, server: sg.miaolianyunapp.com, port: 51139, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 06', type: ss, server: sg.miaolianyunapp.com, port: 51140, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 07', type: ss, server: sg.miaolianyunapp.com, port: 51141, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 08', type: ss, server: sg.miaolianyunapp.com, port: 51142, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 09', type: ss, server: sg.miaolianyunapp.com, port: 51143, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 10', type: ss, server: sg.miaolianyunapp.com, port: 51144, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 11', type: ss, server: sg.miaolianyunapp.com, port: 51145, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 12', type: ss, server: sg.miaolianyunapp.com, port: 51146, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 13', type: ss, server: sg.miaolianyunapp.com, port: 51147, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 14', type: ss, server: sg.miaolianyunapp.com, port: 51148, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇸🇬 新加坡 15', type: ss, server: sg.miaolianyunapp.com, port: 51149, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 01', type: ss, server: us.miaolianyunapp.com, port: 51151, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 02', type: ss, server: us.miaolianyunapp.com, port: 51152, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 03', type: ss, server: us.miaolianyunapp.com, port: 51153, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 04', type: ss, server: us.miaolianyunapp.com, port: 51154, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 05', type: ss, server: us.miaolianyunapp.com, port: 51155, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 06', type: ss, server: us.miaolianyunapp.com, port: 51156, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 07', type: ss, server: us.miaolianyunapp.com, port: 51157, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 08', type: ss, server: us.miaolianyunapp.com, port: 51158, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 09', type: ss, server: us.miaolianyunapp.com, port: 51159, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇺🇸 美国 10', type: ss, server: us.miaolianyunapp.com, port: 51160, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇹🇼 台湾 01', type: ss, server: tw.miaolianyunapp.com, port: 51161, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇹🇼 台湾 02', type: ss, server: tw.miaolianyunapp.com, port: 51162, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇹🇼 台湾 03', type: ss, server: tw.miaolianyunapp.com, port: 51163, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇹🇼 台湾 04', type: ss, server: tw.miaolianyunapp.com, port: 51164, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
-  - { name: '🇹🇼 台湾 05', type: ss, server: tw.miaolianyunapp.com, port: 51165, cipher: chacha20-ietf-poly1305, password: 2ae2dfa4-bbb1-4cde-b8de-74dc5edaa67f, udp: true }
+  - { name: '🇺🇸 美国1', server: surfboard-us.minizz.online, port: 25085, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇺🇸 美国2', server: surfboard-us.minizz.online, port: 25713, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇺🇸 美国3', server: surfboard-us.minizz.online, port: 25768, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇺🇸 美国4', server: surfboard-us.minizz.online, port: 25024, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇫🇷 法国1', server: surfboard-fr.minizz.online, port: 25281, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇫🇷 法国2', server: surfboard-fr.minizz.online, port: 25113, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇫🇷  法国3', server: surfboard-fr.minizz.online, port: 25297, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇫🇷 法国4', server: surfboard-fr.minizz.online, port: 25184, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇱🇺 卢森堡1', server: surfboard-lu.minizz.online, port: 25075, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇱🇺 卢森堡2', server: surfboard-lu.minizz.online, port: 25993, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇱🇺 卢森堡3', server: surfboard-lu.minizz.online, port: 25037, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇱🇺 卢森堡4', server: surfboard-lu.minizz.online, port: 25228, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇳🇬 尼日利亚1', server: surfboard-ne.minizz.online, port: 25878, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇳🇬 尼日利亚2', server: surfboard-ne.minizz.online, port: 25371, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇹🇷 土耳其1', server: surfboard-tr.minizz.online, port: 25280, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: '🇹🇷 土耳其2', server: surfboard-tr.minizz.online, port: 25912, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
