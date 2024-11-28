@@ -1,33 +1,12 @@
 proxies:
-  - {name: 🇯🇵H2 日本01 JPT, server: jp1.netbridge.uk, port: 10000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: jp1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵H2 日本02  JPT, server: jp1.netbridge.uk, port: 20000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: jp1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵H2 日本03  JPT, server: jp1.netbridge.uk, port: 30000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: jp1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷H2 韩国01  KRE, server: korea-01.netbridge.uk, port: 10000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: korea-01.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷H2 韩国02  KRE, server: korea-01.netbridge.uk, port: 20000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: korea-01.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷H2 韩国03  KRE, server: korea-01.netbridge.uk, port: 30000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: korea-01.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸H2 美国01 CAR, server: usa-j2.netbridge.uk, port: 1000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j2.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸H2 美国02 CAR, server: usa-j2.netbridge.uk, port: 2000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j2.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸H2 美国03 CAR, server: usa-j2.netbridge.uk, port: 3000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j2.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰H2 香港01 HKC, server: hk1.netbridge.uk, port: 10000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: hk1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰H2 香港02 HKC, server: hk1.netbridge.uk, port: 20000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: hk1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰H2 香港03 HKC, server: hk1.netbridge.uk, port: 30000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: hk1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭H2 菲律宾01 PHI, server: phi-01.netbridge.uk, port: 1443, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: 192.168.191.224, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸H2 美国01 CLA, server: usa-j1.netbridge.uk, port: 1000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸H2 美国02 CLA, server: usa-j1.netbridge.uk, port: 2000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸H2 美国03 CLA, server: usa-j1.netbridge.uk, port: 3000, client-fingerprint: chrome, type: hysteria2, password: e367d55f-25a2-4e54-aef2-676f13735a6c, sni: usa-j1.netbridge.uk, skip-cert-verify: false, udp: true}
-  - { name: '🇺🇸 美国1', server: surfboard-us.minizz.online, port: 25085, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇺🇸 美国2', server: surfboard-us.minizz.online, port: 25713, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇺🇸 美国3', server: surfboard-us.minizz.online, port: 25768, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇺🇸 美国4', server: surfboard-us.minizz.online, port: 25024, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇫🇷 法国1', server: surfboard-fr.minizz.online, port: 25281, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇫🇷 法国2', server: surfboard-fr.minizz.online, port: 25113, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇫🇷  法国3', server: surfboard-fr.minizz.online, port: 25297, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇫🇷 法国4', server: surfboard-fr.minizz.online, port: 25184, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇱🇺 卢森堡1', server: surfboard-lu.minizz.online, port: 25075, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇱🇺 卢森堡2', server: surfboard-lu.minizz.online, port: 25993, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇱🇺 卢森堡3', server: surfboard-lu.minizz.online, port: 25037, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇱🇺 卢森堡4', server: surfboard-lu.minizz.online, port: 25228, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇳🇬 尼日利亚1', server: surfboard-ne.minizz.online, port: 25878, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇳🇬 尼日利亚2', server: surfboard-ne.minizz.online, port: 25371, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇹🇷 土耳其1', server: surfboard-tr.minizz.online, port: 25280, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
-  - { name: '🇹🇷 土耳其2', server: surfboard-tr.minizz.online, port: 25912, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: d14cd214-ca32-4847-9027-afdfc5093709, ports: 25000-25999 }
+  - { name: 香港-02, type: ss, server: gdm.und32w4732.top, port: 22658, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 香港-01, type: ss, server: jsm.und32w4732.top, port: 40316, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 美国-03, type: ss, server: jsm.und32w4732.top, port: 19455, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 美国-02, type: ss, server: jsm.und32w4732.top, port: 30437, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 美国-01, type: ss, server: jsm.und32w4732.top, port: 24427, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 日本-02, type: ss, server: jsm.und32w4732.top, port: 27483, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 日本-01, type: ss, server: jsm.und32w4732.top, port: 38421, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 新加坡-02, type: ss, server: gdm2.und32w4732.top, port: 26575, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 新加坡-01, type: ss, server: gdm2.und32w4732.top, port: 10730, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 台湾-02, type: ss, server: jsm2.und32w4732.top, port: 44925, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 台湾-01, type: ss, server: gdm2.und32w4732.top, port: 53260, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
