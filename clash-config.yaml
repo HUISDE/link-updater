@@ -1,12 +1,11 @@
 proxies:
-  - { name: 香港-02, type: ss, server: gdm.und32w4732.top, port: 22658, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 香港-01, type: ss, server: jsm.und32w4732.top, port: 40316, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 美国-03, type: ss, server: jsm.und32w4732.top, port: 19455, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 美国-02, type: ss, server: jsm.und32w4732.top, port: 30437, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 美国-01, type: ss, server: jsm.und32w4732.top, port: 24427, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 日本-02, type: ss, server: jsm.und32w4732.top, port: 27483, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 日本-01, type: ss, server: jsm.und32w4732.top, port: 38421, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 新加坡-02, type: ss, server: gdm2.und32w4732.top, port: 26575, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 新加坡-01, type: ss, server: gdm2.und32w4732.top, port: 10730, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 台湾-01, type: ss, server: gdu2.und32w4732.top, port: 53260, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
   - { name: 台湾-02, type: ss, server: jsm2.und32w4732.top, port: 44925, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 台湾-01, type: ss, server: gdm2.und32w4732.top, port: 53260, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 新加坡-01, type: ss, server: gdm2.und32w4732.top, port: 10730, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 新加坡-02, type: ss, server: jsm2.und32w4732.top, port: 26575, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 日本-01, type: ss, server: jsm2.und32w4732.top, port: 58577, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 日本-02, type: ss, server: jsm2.und32w4732.top, port: 52815, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 美国-01, type: ss, server: jsm2.und32w4732.top, port: 10943, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 美国-02, type: ss, server: jsm2.und32w4732.top, port: 38311, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 香港-01, type: ss, server: gdm2.und32w4732.top, port: 10451, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  - { name: 香港-02, type: ss, server: jsm2.und32w4732.top, port: 29713, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
