@@ -1,11 +1,91 @@
 proxies:
-  - { name: 台湾-01, type: ss, server: gdu2.und32w4732.top, port: 53260, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 台湾-02, type: ss, server: jsm2.und32w4732.top, port: 44925, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 新加坡-01, type: ss, server: gdm2.und32w4732.top, port: 10730, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 新加坡-02, type: ss, server: jsm2.und32w4732.top, port: 26575, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 日本-01, type: ss, server: jsm2.und32w4732.top, port: 58577, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 日本-02, type: ss, server: jsm2.und32w4732.top, port: 52815, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 美国-01, type: ss, server: jsm2.und32w4732.top, port: 10943, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 美国-02, type: ss, server: jsm2.und32w4732.top, port: 38311, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 香港-01, type: ss, server: gdm2.und32w4732.top, port: 10451, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
-  - { name: 香港-02, type: ss, server: jsm2.und32w4732.top, port: 29713, cipher: aes-128-gcm, password: 3FairK7TgHYHFQN1AlgPWA==, udp: true }
+  -
+    name: '美国 A54 | 日常 高速 中延迟'
+    type: vmess
+    server: onmkx.jd.alphagatelink.com
+    port: 30004
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '美国 B54 | 日常 高速 中延迟'
+    type: vmess
+    server: tcpik.baidu.alphagatelink.com
+    port: 30004
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '美国 纽约 B31 | 官网dfhl1.com'
+    type: vmess
+    server: emhab.bilibili.exn21ba-c4sja3-4324-abc-oline.com
+    port: 15732
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '新加坡 A32 | 日常 中速'
+    type: vmess
+    server: chqmt.weixin.exn21ba-c4sja3-4324-abc-oline.com
+    port: 15736
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '俄罗斯 A31 | 日常 低速 盗版站'
+    type: vmess
+    server: qchwv.weibo.exn21ba-c4sja3-4324-abc-oline.com
+    port: 30002
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '新加坡 B32 | 日常 中速'
+    type: vmess
+    server: nuybd.douyin.alphagatelink.com
+    port: 15736
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '美国 纽约 A31 | 官网d03.in'
+    type: vmess
+    server: gajnh.downca.potatoeswater.com
+    port: 15732
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: ' 俄罗斯 B21 | 应急 低速 盗版站'
+    type: vmess
+    server: eqcab.360.alphagatelink.com
+    port: 30002
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
+  -
+    name: '瑞典 A91 | 北欧'
+    type: vmess
+    server: conyd.weibo.exn21ba-c4sja3-4324-abc-oline.com
+    port: 19351
+    uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: download.windowsupdate.com
