@@ -1,14 +1,14 @@
 proxies:
-    - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 34929, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 42675, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 33313, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇭🇰 HK  home', type: ss, server: 51fan.stardad.lol, port: 26733, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇭🇰 HK  home', type: ss, server: 51fan.stardad.lol, port: 13213, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇯🇵 JP ', type: ss, server: 51fan.stardad.lol, port: 26905, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇯🇵 JP ', type: ss, server: 51fan.stardad.lol, port: 43712, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇹🇼 TW  home', type: ss, server: 51fan.stardad.lol, port: 49171, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇸🇬 SG ', type: ss, server: 51fan.stardad.lol, port: 16845, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇺🇸 US ', type: ss, server: 51fan.stardad.lol, port: 50943, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇺🇸 US ', type: ss, server: 51fan.stardad.lol, port: 23537, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇺🇸 us ', type: ss, server: 51fan.stardad.lol, port: 23751, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-    - { name: '🇧🇷 BR ', type: ss, server: 51fan.stardad.lol, port: 36584, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK 1', type: ss, server: 51fan.stardad.lol, port: 34929, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK 2', type: ss, server: 51fan.stardad.lol, port: 42675, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK 3', type: ss, server: 51fan.stardad.lol, port: 33313, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK  home 1', type: ss, server: 51fan.stardad.lol, port: 26733, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK  home 2', type: ss, server: 51fan.stardad.lol, port: 13213, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇯🇵 JP 1', type: ss, server: 51fan.stardad.lol, port: 26905, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇯🇵 JP 2', type: ss, server: 51fan.stardad.lol, port: 43712, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇹🇼 TW  home 1', type: ss, server: 51fan.stardad.lol, port: 49171, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇸🇬 SG 1', type: ss, server: 51fan.stardad.lol, port: 16845, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇺🇸 US 1', type: ss, server: 51fan.stardad.lol, port: 50943, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇺🇸 US 2', type: ss, server: 51fan.stardad.lol, port: 23537, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇺🇸 us 3', type: ss, server: 51fan.stardad.lol, port: 23751, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇧🇷 BR 1', type: ss, server: 51fan.stardad.lol, port: 36584, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
