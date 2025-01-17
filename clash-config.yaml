@@ -1,5 +1,5 @@
 proxies:
-  -
+    - 
     name: '美国 A54 | 日常 高速 中延迟'
     type: vmess
     server: onmkx.jd.alphagatelink.com
@@ -9,7 +9,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: '美国 B54 | 日常 高速 中延迟'
     type: vmess
     server: tcpik.baidu.alphagatelink.com
@@ -19,7 +19,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: '美国 纽约 B31 | 官网dfhl1.com'
     type: vmess
     server: emhab.bilibili.exn21ba-c4sja3-4324-abc-oline.com
@@ -29,7 +29,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: '新加坡 A32 | 日常 中速'
     type: vmess
     server: chqmt.weixin.exn21ba-c4sja3-4324-abc-oline.com
@@ -39,7 +39,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: '俄罗斯 A31 | 日常 低速 盗版站'
     type: vmess
     server: qchwv.weibo.exn21ba-c4sja3-4324-abc-oline.com
@@ -49,7 +49,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: '新加坡 B32 | 日常 中速'
     type: vmess
     server: nuybd.douyin.alphagatelink.com
@@ -59,7 +59,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: '美国 纽约 A31 | 官网d03.in'
     type: vmess
     server: gajnh.downca.potatoeswater.com
@@ -69,7 +69,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: ' 俄罗斯 B21 | 应急 低速 盗版站'
     type: vmess
     server: eqcab.360.alphagatelink.com
@@ -79,7 +79,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
-  -
+    - 
     name: '瑞典 A91 | 北欧'
     type: vmess
     server: conyd.weibo.exn21ba-c4sja3-4324-abc-oline.com
@@ -89,3 +89,16 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
+    - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 34929, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 42675, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 33313, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK  home', type: ss, server: 51fan.stardad.lol, port: 26733, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇭🇰 HK  home', type: ss, server: 51fan.stardad.lol, port: 13213, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇯🇵 JP ', type: ss, server: 51fan.stardad.lol, port: 26905, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇯🇵 JP ', type: ss, server: 51fan.stardad.lol, port: 43712, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇹🇼 TW  home', type: ss, server: 51fan.stardad.lol, port: 49171, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇸🇬 SG ', type: ss, server: 51fan.stardad.lol, port: 16845, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇺🇸 US ', type: ss, server: 51fan.stardad.lol, port: 50943, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇺🇸 US ', type: ss, server: 51fan.stardad.lol, port: 23537, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇺🇸 us ', type: ss, server: 51fan.stardad.lol, port: 23751, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+    - { name: '🇧🇷 BR ', type: ss, server: 51fan.stardad.lol, port: 36584, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
