@@ -1,14 +1,104 @@
 proxies:
-  - { name: '🇭🇰 HK 1', type: ss, server: 51fan.stardad.lol, port: 34929, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇭🇰 HK 2', type: ss, server: 51fan.stardad.lol, port: 42675, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇭🇰 HK 3', type: ss, server: 51fan.stardad.lol, port: 33313, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇭🇰 HK  home 1', type: ss, server: 51fan.stardad.lol, port: 26733, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇭🇰 HK  home 2', type: ss, server: 51fan.stardad.lol, port: 13213, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇯🇵 JP 1', type: ss, server: 51fan.stardad.lol, port: 26905, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇯🇵 JP 2', type: ss, server: 51fan.stardad.lol, port: 43712, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇹🇼 TW  home 1', type: ss, server: 51fan.stardad.lol, port: 49171, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇸🇬 SG 1', type: ss, server: 51fan.stardad.lol, port: 16845, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇺🇸 US 1', type: ss, server: 51fan.stardad.lol, port: 50943, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇺🇸 US 2', type: ss, server: 51fan.stardad.lol, port: 23537, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇺🇸 us 3', type: ss, server: 51fan.stardad.lol, port: 23751, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇧🇷 BR 1', type: ss, server: 51fan.stardad.lol, port: 36584, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇭🇰 HK 1', type: ss, server: 51fan.stardad.lol, port: 34929, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇭🇰 HK 2', type: ss, server: 51fan.stardad.lol, port: 42675, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇭🇰 HK 3', type: ss, server: 51fan.stardad.lol, port: 33313, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇭🇰 HK  home 1', type: ss, server: 51fan.stardad.lol, port: 26733, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇭🇰 HK  home 2', type: ss, server: 51fan.stardad.lol, port: 13213, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇯🇵 JP 1', type: ss, server: 51fan.stardad.lol, port: 26905, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇯🇵 JP 2', type: ss, server: 51fan.stardad.lol, port: 43712, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇹🇼 TW  home 1', type: ss, server: 51fan.stardad.lol, port: 49171, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇸🇬 SG 1', type: ss, server: 51fan.stardad.lol, port: 16845, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇺🇸 US 1', type: ss, server: 51fan.stardad.lol, port: 50943, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇺🇸 US 2', type: ss, server: 51fan.stardad.lol, port: 23537, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇺🇸 us 3', type: ss, server: 51fan.stardad.lol, port: 23751, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- { name: '🇧🇷 BR 1', type: ss, server: 51fan.stardad.lol, port: 36584, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
+- 
+  name: '美国 | 日常 高速 中延迟'
+  type: vmess
+  server: onmkx.jd.alphagatelink.com
+  port: 30004
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: '美国  | 日常 高速 中延迟'
+  type: vmess
+  server: tcpik.baidu.alphagatelink.com
+  port: 30004
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: '美国 纽约 | 官网dfhl1.com'
+  type: vmess
+  server: emhab.bilibili.exn21ba-c4sja3-4324-abc-oline.com
+  port: 15732
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: '新加坡  | 日常 中速'
+  type: vmess
+  server: chqmt.weixin.exn21ba-c4sja3-4324-abc-oline.com
+  port: 15736
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: '俄罗斯  | 日常 低速 盗版站'
+  type: vmess
+  server: qchwv.weibo.exn21ba-c4sja3-4324-abc-oline.com
+  port: 30002
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: '新加坡  | 日常 中速'
+  type: vmess
+  server: nuybd.douyin.alphagatelink.com
+  port: 15736
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: '美国 纽约 A'
+  type: vmess
+  server: gajnh.downca.potatoeswater.com
+  port: 15732
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: ' 俄罗斯 B| 应急 低速 盗版站'
+  type: vmess
+  server: eqcab.360.alphagatelink.com
+  port: 30002
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
+- 
+  name: '瑞典 A| 北欧'
+  type: vmess
+  server: conyd.weibo.exn21ba-c4sja3-4324-abc-oline.com
+  port: 19351
+  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
+  alterId: 0
+  cipher: auto
+  udp: true
+  servername: download.windowsupdate.com
