@@ -89,6 +89,7 @@ proxies:
     cipher: auto
     udp: true
     servername: download.windowsupdate.com
+    
     - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 34929, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
     - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 42675, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
     - { name: '🇭🇰 HK ', type: ss, server: 51fan.stardad.lol, port: 33313, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
