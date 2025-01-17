@@ -43,7 +43,7 @@ proxies:
   udp: true
   servername: download.windowsupdate.com
 - 
-  name: '新加坡  | 日常 中速'
+  name: '新加坡  1| 日常 中速'
   type: vmess
   server: chqmt.weixin.exn21ba-c4sja3-4324-abc-oline.com
   port: 15736
@@ -53,7 +53,7 @@ proxies:
   udp: true
   servername: download.windowsupdate.com
 - 
-  name: '俄罗斯  | 日常 低速 盗版站'
+  name: '俄罗斯  1| 日常 低速 盗版站'
   type: vmess
   server: qchwv.weibo.exn21ba-c4sja3-4324-abc-oline.com
   port: 30002
@@ -63,7 +63,7 @@ proxies:
   udp: true
   servername: download.windowsupdate.com
 - 
-  name: '新加坡  | 日常 中速'
+  name: '新加坡  2| 日常 中速'
   type: vmess
   server: nuybd.douyin.alphagatelink.com
   port: 15736
