@@ -13,7 +13,7 @@ proxies:
 - { name: '🇺🇸 us 3', type: ss, server: 51fan.stardad.lol, port: 23751, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
 - { name: '🇧🇷 BR 1', type: ss, server: 51fan.stardad.lol, port: 36584, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
 - { name: '🇩🇪 DE 2', server: de.taipeicity.news, port: 60898, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
-- { name: '🇯🇵 JP 2', server: jpzl2.stardad.lol, port: 48512, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
+- { name: '🇯🇵 JP 3', server: jpzl2.stardad.lol, port: 48512, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
 - { name: '🇸🇬 SG 2', server: sgzl2.stardad.lol, port: 35701, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
 - { name: '🇻🇳 VN 2', server: vn.taipeicity.news, port: 23656, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
 - 
