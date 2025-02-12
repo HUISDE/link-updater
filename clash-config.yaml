@@ -16,93 +16,25 @@ proxies:
 - { name: '🇯🇵 JP 3', server: jpzl2.stardad.lol, port: 48512, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
 - { name: '🇸🇬 SG 2', server: sgzl2.stardad.lol, port: 35701, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
 - { name: '🇻🇳 VN 2', server: vn.taipeicity.news, port: 23656, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
-- 
-  name: '美国 | 日常 高速 中延迟'
-  type: vmess
-  server: onmkx.jd.alphagatelink.com
-  port: 30004
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: '美国  | 日常 高速 中延迟'
-  type: vmess
-  server: tcpik.baidu.alphagatelink.com
-  port: 30004
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: '美国 纽约 | 官网dfhl1.com'
-  type: vmess
-  server: emhab.bilibili.exn21ba-c4sja3-4324-abc-oline.com
-  port: 15732
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: '新加坡  1| 日常 中速'
-  type: vmess
-  server: chqmt.weixin.exn21ba-c4sja3-4324-abc-oline.com
-  port: 15736
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: '俄罗斯  1| 日常 低速 盗版站'
-  type: vmess
-  server: qchwv.weibo.exn21ba-c4sja3-4324-abc-oline.com
-  port: 30002
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: '新加坡  2| 日常 中速'
-  type: vmess
-  server: nuybd.douyin.alphagatelink.com
-  port: 15736
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: '美国 纽约 A'
-  type: vmess
-  server: gajnh.downca.potatoeswater.com
-  port: 15732
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: ' 俄罗斯 B| 应急 低速 盗版站'
-  type: vmess
-  server: eqcab.360.alphagatelink.com
-  port: 30002
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
-- 
-  name: '瑞典 A| 北欧'
-  type: vmess
-  server: conyd.weibo.exn21ba-c4sja3-4324-abc-oline.com
-  port: 19351
-  uuid: 863bef10-f254-3581-a7a6-ad067cc4232a
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: download.windowsupdate.com
+- { name: '🇺🇸 美国1', server: sanyuandian-us.sanguayun.com, port: 12820, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇺🇸 美国2', server: sanyuandian-us.sanguayun.com, port: 12538, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇺🇸 美国3', server: sanyuandian-us.sanguayun.com, port: 12075, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇺🇸 美国4', server: sanyuandian-us.sanguayun.com, port: 12699, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港1', server: sanyuandian-hk.sanguayun.com, port: 12691, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港2', server: sanyuandian-hk.sanguayun.com, port: 12882, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港3', server: sanyuandian-hk.sanguayun.com, port: 12651, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港4', server: sanyuandian-hk.sanguayun.com, port: 12848, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本1', server: sanyuandian-jp.sanguayun.com, port: 12176, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本2', server: sanyuandian-jp.sanguayun.com, port: 12170, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本3', server: sanyuandian-jp.sanguayun.com, port: 12898, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本4', server: sanyuandian-jp.sanguayun.com, port: 12759, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰1', server: sanyuandian-nl.sanguayun.com, port: 12202, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰2', server: sanyuandian-nl.sanguayun.com, port: 12784, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰3', server: sanyuandian-nl.sanguayun.com, port: 12155, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰4', server: sanyuandian-nl.sanguayun.com, port: 12545, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: 香港, server: xg.laosijicc.top, port: 34561, udp: true, skip-cert-verify: true, sni: xg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 美国, server: mg.laosijicc.top, port: 34562, udp: true, skip-cert-verify: true, sni: mg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 英国, server: yg.laosijicc.top, port: 34563, udp: true, skip-cert-verify: true, sni: yg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 德国, server: dg.laosijicc.top, port: 34564, udp: true, skip-cert-verify: true, sni: dg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 新加坡, server: xjp.laosijicc.top, port: 34565, udp: true, skip-cert-verify: true, sni: xjp.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 日本, server: rb.laosijicc.top, port: 34566, udp: true, skip-cert-verify: true, sni: rb.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
