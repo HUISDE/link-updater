@@ -1,0 +1,109 @@
+proxies:
+- { name: '🇺🇸 美国1-1', server: sanyuandian-us.sanguayun.com, port: 12820, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇺🇸 美国2-1', server: sanyuandian-us.sanguayun.com, port: 12538, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇺🇸 美国3-1', server: sanyuandian-us.sanguayun.com, port: 12075, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇺🇸 美国4-1', server: sanyuandian-us.sanguayun.com, port: 12699, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港1-1', server: sanyuandian-hk.sanguayun.com, port: 12691, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港2-1', server: sanyuandian-hk.sanguayun.com, port: 12882, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港3-1', server: sanyuandian-hk.sanguayun.com, port: 12651, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇭🇰 香港4-1', server: sanyuandian-hk.sanguayun.com, port: 12848, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本1-1', server: sanyuandian-jp.sanguayun.com, port: 12176, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本2-1', server: sanyuandian-jp.sanguayun.com, port: 12170, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本3-1', server: sanyuandian-jp.sanguayun.com, port: 12898, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇯🇵 日本4-1', server: sanyuandian-jp.sanguayun.com, port: 12759, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰1-1', server: sanyuandian-nl.sanguayun.com, port: 12202, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰2-1', server: sanyuandian-nl.sanguayun.com, port: 12784, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰3-1', server: sanyuandian-nl.sanguayun.com, port: 12155, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: '🇳🇱 荷兰4-1', server: sanyuandian-nl.sanguayun.com, port: 12545, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 12001-12999, type: hysteria2, password: 7ddf3439-e9d8-4c3d-80ac-2d08ef062f1b }
+- { name: 香港-2, server: xg.laosijicc.top, port: 34561, udp: true, skip-cert-verify: true, sni: xg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 美国-2, server: mg.laosijicc.top, port: 34562, udp: true, skip-cert-verify: true, sni: mg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 英国-2, server: yg.laosijicc.top, port: 34563, udp: true, skip-cert-verify: true, sni: yg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 德国-2, server: dg.laosijicc.top, port: 34564, udp: true, skip-cert-verify: true, sni: dg.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 新加坡-2, server: xjp.laosijicc.top, port: 34565, udp: true, skip-cert-verify: true, sni: xjp.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: 日本-2, server: rb.laosijicc.top, port: 34566, udp: true, skip-cert-verify: true, sni: rb.laosijicc.top, type: hysteria2, password: fe33c688-5b25-48e5-8375-b1bdfa85d13d }
+- { name: '🇭🇰 Hong Kong 01', type: ss, server: tqt-hk01.51feitu.com, port: 27801, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 02', type: ss, server: tqt-hk02.51feitu.com, port: 27802, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 03', type: ss, server: tqt-hk03.51feitu.com, port: 27803, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 04', type: ss, server: tqt-hk04.51feitu.com, port: 27804, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 05', type: ss, server: tqt-hk05.51feitu.com, port: 27805, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 11', type: ss, server: tqt-hk11.51feitu.com, port: 27811, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 12', type: ss, server: tqt-hk12.51feitu.com, port: 27812, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 13', type: ss, server: tqt-hk13.51feitu.com, port: 27813, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 14', type: ss, server: tqt-hk14.51feitu.com, port: 27814, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 15', type: ss, server: tqt-hk15.51feitu.com, port: 27815, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 01', type: ss, server: tqt-sg01.51feitu.com, port: 42801, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 02', type: ss, server: tqt-sg02.51feitu.com, port: 42802, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 03', type: ss, server: tqt-sg03.51feitu.com, port: 42803, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 04', type: ss, server: tqt-sg04.51feitu.com, port: 42814, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 05', type: ss, server: tqt-sg05.51feitu.com, port: 42805, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 01', type: ss, server: tqt-jp01.51feitu.com, port: 43711, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 02', type: ss, server: tqt-jp02.51feitu.com, port: 43702, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 03', type: ss, server: tqt-jp03.51feitu.com, port: 43703, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 04', type: ss, server: tqt-jp04.51feitu.com, port: 43714, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 05', type: ss, server: tqt-jp05.51feitu.com, port: 43705, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 01', type: ss, server: tqt-us01.51feitu.com, port: 47969, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 02', type: ss, server: tqt-us02.51feitu.com, port: 30820, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 03', type: ss, server: tqt-us03.51feitu.com, port: 23199, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 04', type: ss, server: tqt-us04.51feitu.com, port: 44948, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 05', type: ss, server: tqt-us05.51feitu.com, port: 44949, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 01', type: ss, server: tqt-tw01.51feitu.com, port: 52416, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 02', type: ss, server: tqt-tw02.51feitu.com, port: 52417, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 03', type: ss, server: tqt-tw03.51feitu.com, port: 52418, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇬🇧 England | 英国', type: ss, server: tqt-tt.51feitu.com, port: 19406, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇪🇸 Spain | 西班牙', type: ss, server: tqt-tt.51feitu.com, port: 19408, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇷🇺 Russia | 俄罗斯', type: ss, server: tqt-tt.51feitu.com, port: 13491, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇲🇾 Malaysia | 马来西亚', type: ss, server: tqt-tt.51feitu.com, port: 13091, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇹🇷 Turkey | 土耳其', type: ss, server: tqt-tt.51feitu.com, port: 13092, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 01', type: ss, server: tqt-hk01.51feitu.com, port: 27801, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 02', type: ss, server: tqt-hk02.51feitu.com, port: 27802, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 03', type: ss, server: tqt-hk03.51feitu.com, port: 27803, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 04', type: ss, server: tqt-hk04.51feitu.com, port: 27804, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 05', type: ss, server: tqt-hk05.51feitu.com, port: 27805, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 HK 06 IEPL×2', type: ss, server: tqt-hk-vip.51feitu.com, port: 31006, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰  HK 07 IEPL×2', type: ss, server: tqt-hk-vip.51feitu.com, port: 31007, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰  HK 08 IEPL×2', type: ss, server: tqt-hk-vip.51feitu.com, port: 31008, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰  HK 09 IEPL×2', type: ss, server: tqt-hk-vip.51feitu.com, port: 31009, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰  HK 10 IEPL×2', type: ss, server: tqt-hk-vip.51feitu.com, port: 31010, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 11', type: ss, server: tqt-hk11.51feitu.com, port: 27811, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 12', type: ss, server: tqt-hk12.51feitu.com, port: 27812, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 13', type: ss, server: tqt-hk13.51feitu.com, port: 27813, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 14', type: ss, server: tqt-hk14.51feitu.com, port: 27814, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇭🇰 Hong Kong 15', type: ss, server: tqt-hk15.51feitu.com, port: 27815, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 01', type: ss, server: tqt-sg01.51feitu.com, port: 42801, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 02', type: ss, server: tqt-sg02.51feitu.com, port: 42802, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 03', type: ss, server: tqt-sg03.51feitu.com, port: 42803, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 04', type: ss, server: tqt-sg04.51feitu.com, port: 42814, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 Singapore 05', type: ss, server: tqt-sg05.51feitu.com, port: 42805, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 SG 06 IEPL×2', type: ss, server: tqt-sg-vip.51feitu.com, port: 32006, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 SG 07 IEPL×2', type: ss, server: tqt-sg-vip.51feitu.com, port: 32007, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 SG 08 IEPL×2', type: ss, server: tqt-sg-vip.51feitu.com, port: 32008, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 SG 09 IEPL×2', type: ss, server: tqt-sg-vip.51feitu.com, port: 32009, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇸🇬 SG 10 IEPL×2', type: ss, server: tqt-sg-vip.51feitu.com, port: 32010, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 01', type: ss, server: tqt-jp01.51feitu.com, port: 43711, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 02', type: ss, server: tqt-jp02.51feitu.com, port: 43702, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 03', type: ss, server: tqt-jp03.51feitu.com, port: 43703, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 04', type: ss, server: tqt-jp04.51feitu.com, port: 43714, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 Japan 05', type: ss, server: tqt-jp05.51feitu.com, port: 43705, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 JP 06 IEPL×2', type: ss, server: tqt-jp-vip.51feitu.com, port: 33006, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 JP 07 IEPL×2', type: ss, server: tqt-jp-vip.51feitu.com, port: 33007, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 JP 08 IEPL×2', type: ss, server: tqt-jp-vip.51feitu.com, port: 33008, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 JP 09 IEPL×2', type: ss, server: tqt-jp-vip.51feitu.com, port: 33009, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇯🇵 JP 10 IEPL×2', type: ss, server: tqt-jp-vip.51feitu.com, port: 33010, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 01', type: ss, server: tqt-us01.51feitu.com, port: 47969, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 02', type: ss, server: tqt-us02.51feitu.com, port: 30820, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 03', type: ss, server: tqt-us03.51feitu.com, port: 23199, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 04', type: ss, server: tqt-us04.51feitu.com, port: 44948, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 05', type: ss, server: tqt-us05.51feitu.com, port: 44949, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 06 IEPL×2', type: ss, server: tqt-us-vip.51feitu.com, port: 34006, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 07 IEPL×2', type: ss, server: tqt-us-vip.51feitu.com, port: 34007, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇺🇸 US 08 IEPL×2', type: ss, server: tqt-us-vip.51feitu.com, port: 34008, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 01', type: ss, server: tqt-tw01.51feitu.com, port: 52416, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 02', type: ss, server: tqt-tw02.51feitu.com, port: 52417, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 03', type: ss, server: tqt-tw03.51feitu.com, port: 52418, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 04 IEPL×2', type: ss, server: tqt-tw-vip.51feitu.com, port: 35004, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇼🇸 Taipei 05 IEPL×2', type: ss, server: tqt-tw-vip.51feitu.com, port: 35005, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇬🇧 England | 英国', type: ss, server: tqt-tt.51feitu.com, port: 19406, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇪🇸 Spain | 西班牙', type: ss, server: tqt-tt.51feitu.com, port: 19408, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇷🇺 Russia | 俄罗斯', type: ss, server: tqt-tt.51feitu.com, port: 13491, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇲🇾 Malaysia | 马来西亚', type: ss, server: tqt-tt.51feitu.com, port: 13091, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
+- { name: '🇹🇷 Turkey | 土耳其', type: ss, server: tqt-tt.51feitu.com, port: 13092, cipher: chacha20-ietf-poly1305, password: fa299e82-e184-45d3-a75f-2c79f7e7025e, udp: true }
