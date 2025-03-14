@@ -1,153 +1,351 @@
 proxies:
-  - { name: '🇧🇷 BR 1-1', type: ss, server: 51fan.stardad.lol, port: 36584, cipher: chacha20-ietf-poly1305, password: ecb55a5c-18af-4063-9fe3-20b32d3ef2e4, udp: true }
-  - { name: '🇩🇪 DE 2-1', server: de.taipeicity.news, port: 60898, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
-  - { name: '🇯🇵 JP 3-1', server: jpzl2.stardad.lol, port: 48512, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
-  - { name: '🇸🇬 SG 2-1', server: sgzl2.stardad.lol, port: 35701, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
-  - { name: '🇻🇳 VN 2-1', server: vn.taipeicity.news, port: 23656, sni: 'https://bing.com', up: 10, down: 10, skip-cert-verify: true, type: hysteria2, password: c64c5250-e20d-48d2-a3d2-d2794442ffd8 }
-  - name: HK香港-01
+  - name: 🇭🇰 香港 00
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 35967
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk00.ofopp.com
+    port: 32566
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: HK香港-02
+  - name: 🇭🇰 香港 01
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 59447
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk01.ofopp.com
+    port: 10001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: HK香港-03
+  - name: 🇭🇰 香港 02
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 54589
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk02.ofopp.com
+    port: 10002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: HK香港-04
+  - name: 🇭🇰 香港 03
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 51741
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk03.ofopp.com
+    port: 10003
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: US美国-01
+  - name: 🇭🇰 香港 04
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 44706
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk04.ofopp.com
+    port: 10004
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: US美国-02
+  - name: 🇭🇰 香港 05
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 30625
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk05.ofopp.com
+    port: 10005
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: US美国-03
+  - name: 🇭🇰 香港 06
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 14733
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk06.ofopp.com
+    port: 10006
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: US美国-04
+  - name: 🇭🇰 香港 07
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 42597
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk07.ofopp.com
+    port: 10007
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: JP日本-01
+  - name: 🇭🇰 香港 08
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 31791
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: hk08.ofopp.com
+    port: 10008
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: JP日本-02
+  - name: 🇨🇳 台湾 00
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 29092
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: tw00.ofopp.com
+    port: 14000
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: JP日本-03
+  - name: 🇨🇳 台湾 01
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 59085
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: tw01.ofopp.com
+    port: 14001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: JP日本-04
+  - name: 🇨🇳 台湾 02
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 28818
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: tw02.ofopp.com
+    port: 14002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: SG新加坡-01
+  - name: 🇨🇳 台湾 03
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 14679
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: tw03.ofopp.com
+    port: 14003
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: SG新加坡-02
+  - name: 🇨🇳 台湾 04
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 23133
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: tw04.ofopp.com
+    port: 14004
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: SG新加坡-03
+  - name: 🇸🇬 新加坡 00
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 27106
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: sg00.ofopp.com
+    port: 12000
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: SG新加坡-04
+  - name: 🇸🇬 新加坡 01
     type: ss
-    server: fdyd500nn.nekros.3406xyz.xyz
-    port: 14646
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: sg01.ofopp.com
+    port: 12001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: DE德国-住宅
+  - name: 🇸🇬 新加坡 02
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 20743
-    cipher: aes-128-gcm
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: sg02.ofopp.com
+    port: 12002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: HL荷兰
+  - name: 🇸🇬 新加坡 03
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 19201
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: sg03.ofopp.com
+    port: 12003
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: IS冰岛
+  - name: 🇸🇬 新加坡 04
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 55372
-    cipher: aes-128-gcm
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: sg04.ofopp.com
+    port: 12004
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: FR法国
+  - name: 🇸🇬 新加坡 05
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 51715
-    cipher: chacha20-ietf-poly1305
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: sg05.ofopp.com
+    port: 12005
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
-  - name: IT意大利
+  - name: 🇯🇵 日本 02
     type: ss
-    server: fdydgz.nekors.3406xyz.xyz
-    port: 41412
-    cipher: aes-128-gcm
-    password: 9f7d6b69-a771-4843-a3c1-7f5ce75f2e24
+    server: jp02.ofopp.com
+    port: 11002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇯🇵 日本 03
+    type: ss
+    server: jp03.ofopp.com
+    port: 11003
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇯🇵 日本 04
+    type: ss
+    server: jp04.ofopp.com
+    port: 11004
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇯🇵 日本 05
+    type: ss
+    server: jp05.ofopp.com
+    port: 11005
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇯🇵 日本 06
+    type: ss
+    server: jp06.ofopp.com
+    port: 11006
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇺🇸 美国 00
+    type: ss
+    server: us00.ofopp.com
+    port: 13000
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇺🇸 美国 01
+    type: ss
+    server: us01.ofopp.com
+    port: 13001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇺🇸 美国 02
+    type: ss
+    server: us02.ofopp.com
+    port: 13002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇺🇸 美国 03
+    type: ss
+    server: us03.ofopp.com
+    port: 13003
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇺🇸 美国 04
+    type: ss
+    server: us04.ofopp.com
+    port: 13004
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇺🇸 美国 05
+    type: ss
+    server: us05.ofopp.com
+    port: 13005
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇺🇸 美国 06
+    type: ss
+    server: us06.ofopp.com
+    port: 13006
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇰🇷 韩国 01
+    type: ss
+    server: kr01.ofopp.com
+    port: 25001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇰🇷 韩国 02
+    type: ss
+    server: kr01.ofopp.com
+    port: 25002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇵🇭 菲律宾 01
+    type: ss
+    server: ph01.ofopp.com
+    port: 20001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇲🇾 马来西亚 01
+    type: ss
+    server: my01.ofopp.com
+    port: 16001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇲🇾 马来西亚 02
+    type: ss
+    server: my02.ofopp.com
+    port: 16002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇨🇦 加拿大 01
+    type: ss
+    server: ca01.ofopp.com
+    port: 18001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇨🇦 加拿大 02
+    type: ss
+    server: ca02.ofopp.com
+    port: 18002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇮🇳 印度 01
+    type: ss
+    server: in01.ofopp.com
+    port: 26001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇮🇳 印度 02
+    type: ss
+    server: in02.ofopp.com
+    port: 26002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇧🇷 巴西 01
+    type: ss
+    server: br01.ofopp.com
+    port: 27001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇹🇷 土耳其 01
+    type: ss
+    server: tr01.ofopp.com
+    port: 19001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇹🇭 泰国 01
+    type: ss
+    server: th01.ofopp.com
+    port: 24001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇻🇳 越南 01
+    type: ss
+    server: vn01.ofopp.com
+    port: 21001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇷🇺 俄罗斯 01
+    type: ss
+    server: ru01.ofopp.com
+    port: 22001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇦🇷 阿根廷 01
+    type: ss
+    server: ar01.ofopp.com
+    port: 22001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇬🇧 英国 01
+    type: ss
+    server: gb01.ofopp.com
+    port: 15001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇬🇧 英国 02
+    type: ss
+    server: gb02.ofopp.com
+    port: 15002
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+    udp: true
+  - name: 🇩🇪 德国 01
+    type: ss
+    server: de01.ofopp.com
+    port: 17001
+    cipher: aes-256-gcm
+    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
     udp: true
