@@ -1,351 +1,440 @@
 proxies:
-  - name: 🇭🇰 香港 00
-    type: ss
-    server: hk00.ofopp.com
-    port: 32566
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[直连]US美国 A"
+    server: us.milkcloud.org
+    port: 25949
+    sni: us.milkcloud.org
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    type: hysteria2
+    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+  - name: "[直连]RU俄罗斯 A"
+    server: ru.milkcloud.org
+    port: 14329
+    sni: ru.milkcloud.org
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    type: hysteria2
+    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    obfs: salamander
+    obfs-password: NDA0YTI5YmZjNzkwY2M3Yg==
+  - name: "[直连]DE德国 A"
+    server: ru.milkcloud.org
+    port: 29470
+    sni: de.milkcloud.org
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    type: hysteria2
+    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    obfs: salamander
+    obfs-password: NDA0YTI5YmZjNzkwY2M3Yg==
+  - name: "[中转]AU澳大利亚"
+    type: vmess
+    server: a.milkcloud.org
+    port: 23443
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 01
-    type: ss
-    server: hk01.ofopp.com
-    port: 10001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]VN越南家宽"
+    type: vmess
+    server: a.milkcloud.org
+    port: 34900
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 02
-    type: ss
-    server: hk02.ofopp.com
-    port: 10002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]TH泰国 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 34509
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 03
-    type: ss
-    server: hk03.ofopp.com
-    port: 10003
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]IN印度 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 19789
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 04
-    type: ss
-    server: hk04.ofopp.com
-    port: 10004
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]MM缅甸 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 24350
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 05
-    type: ss
-    server: hk05.ofopp.com
-    port: 10005
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]KR韩国 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 24539
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 06
-    type: ss
-    server: hk06.ofopp.com
-    port: 10006
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]TR土耳其 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 54323
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 07
-    type: ss
-    server: hk07.ofopp.com
-    port: 10007
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]CA加拿大 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 24307
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇭🇰 香港 08
-    type: ss
-    server: hk08.ofopp.com
-    port: 10008
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]UK英国 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 24735
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇨🇳 台湾 00
-    type: ss
-    server: tw00.ofopp.com
-    port: 14000
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]NG尼日利亚 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 35487
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇨🇳 台湾 01
-    type: ss
-    server: tw01.ofopp.com
-    port: 14001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: "[中转]AQ南极洲 A x1"
+    type: vmess
+    server: a.milkcloud.org
+    port: 52306
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
     udp: true
-  - name: 🇨🇳 台湾 02
-    type: ss
-    server: tw02.ofopp.com
-    port: 14002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 香港 - 1
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hk01s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: hk01s.5553-3121-f211.cfd
     udp: true
-  - name: 🇨🇳 台湾 03
-    type: ss
-    server: tw03.ofopp.com
-    port: 14003
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 新加坡 - 1
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sg01s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: sg01s.5553-3121-f211.cfd
     udp: true
-  - name: 🇨🇳 台湾 04
-    type: ss
-    server: tw04.ofopp.com
-    port: 14004
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 美国 - 1
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us01s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: us01s.5553-3121-f211.cfd
     udp: true
-  - name: 🇸🇬 新加坡 00
-    type: ss
-    server: sg00.ofopp.com
-    port: 12000
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: ?? 日本 - 1
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jp01s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: jp01s.5553-3121-f211.cfd
     udp: true
-  - name: 🇸🇬 新加坡 01
-    type: ss
-    server: sg01.ofopp.com
-    port: 12001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 韩国 - 1
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: kr01s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: kr01s.5553-3121-f211.cfd
     udp: true
-  - name: 🇸🇬 新加坡 02
-    type: ss
-    server: sg02.ofopp.com
-    port: 12002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 香港 - 2
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hk02s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: hk02s.5553-3121-f211.cfd
     udp: true
-  - name: 🇸🇬 新加坡 03
-    type: ss
-    server: sg03.ofopp.com
-    port: 12003
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 新加坡 - 2
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sg02s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: sg02s.5553-3121-f211.cfd
     udp: true
-  - name: 🇸🇬 新加坡 04
-    type: ss
-    server: sg04.ofopp.com
-    port: 12004
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 美国 - 2
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us02s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: us02s.5553-3121-f211.cfd
     udp: true
-  - name: 🇸🇬 新加坡 05
-    type: ss
-    server: sg05.ofopp.com
-    port: 12005
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 日本 - 2
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jp02s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: jp02s.5553-3121-f211.cfd
     udp: true
-  - name: 🇯🇵 日本 02
-    type: ss
-    server: jp02.ofopp.com
-    port: 11002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 韩国 - 2
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: kr02s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: kr02s.5553-3121-f211.cfd
     udp: true
-  - name: 🇯🇵 日本 03
-    type: ss
-    server: jp03.ofopp.com
-    port: 11003
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 香港 - 3
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hk03s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: hk03s.5553-3121-f211.cfd
     udp: true
-  - name: 🇯🇵 日本 04
-    type: ss
-    server: jp04.ofopp.com
-    port: 11004
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 新加坡 - 3
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sg03s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: sg03s.5553-3121-f211.cfd
     udp: true
-  - name: 🇯🇵 日本 05
-    type: ss
-    server: jp05.ofopp.com
-    port: 11005
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 美国 - 3
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us03s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: us03s.5553-3121-f211.cfd
     udp: true
-  - name: 🇯🇵 日本 06
-    type: ss
-    server: jp06.ofopp.com
-    port: 11006
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 日本 - 3
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jp03s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: jp03s.5553-3121-f211.cfd
     udp: true
-  - name: 🇺🇸 美国 00
-    type: ss
-    server: us00.ofopp.com
-    port: 13000
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 韩国 - 3
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: kr03s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: kr03s.5553-3121-f211.cfd
     udp: true
-  - name: 🇺🇸 美国 01
-    type: ss
-    server: us01.ofopp.com
-    port: 13001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 香港 - 4
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hk04s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: hk04s.5553-3121-f211.cfd
     udp: true
-  - name: 🇺🇸 美国 02
-    type: ss
-    server: us02.ofopp.com
-    port: 13002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 新加坡 - 4
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sg04s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: sg04s.5553-3121-f211.cfd
     udp: true
-  - name: 🇺🇸 美国 03
-    type: ss
-    server: us03.ofopp.com
-    port: 13003
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 美国 - 4
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us04s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: us04s.5553-3121-f211.cfd
     udp: true
-  - name: 🇺🇸 美国 04
-    type: ss
-    server: us04.ofopp.com
-    port: 13004
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 日本 - 4
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jp04s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: jp04s.5553-3121-f211.cfd
     udp: true
-  - name: 🇺🇸 美国 05
-    type: ss
-    server: us05.ofopp.com
-    port: 13005
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇺🇸 美国 06
-    type: ss
-    server: us06.ofopp.com
-    port: 13006
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇰🇷 韩国 01
-    type: ss
-    server: kr01.ofopp.com
-    port: 25001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇰🇷 韩国 02
-    type: ss
-    server: kr01.ofopp.com
-    port: 25002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇵🇭 菲律宾 01
-    type: ss
-    server: ph01.ofopp.com
-    port: 20001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇲🇾 马来西亚 01
-    type: ss
-    server: my01.ofopp.com
-    port: 16001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇲🇾 马来西亚 02
-    type: ss
-    server: my02.ofopp.com
-    port: 16002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇨🇦 加拿大 01
-    type: ss
-    server: ca01.ofopp.com
-    port: 18001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇨🇦 加拿大 02
-    type: ss
-    server: ca02.ofopp.com
-    port: 18002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇮🇳 印度 01
-    type: ss
-    server: in01.ofopp.com
-    port: 26001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇮🇳 印度 02
-    type: ss
-    server: in02.ofopp.com
-    port: 26002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇧🇷 巴西 01
-    type: ss
-    server: br01.ofopp.com
-    port: 27001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇹🇷 土耳其 01
-    type: ss
-    server: tr01.ofopp.com
-    port: 19001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇹🇭 泰国 01
-    type: ss
-    server: th01.ofopp.com
-    port: 24001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇻🇳 越南 01
-    type: ss
-    server: vn01.ofopp.com
-    port: 21001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇷🇺 俄罗斯 01
-    type: ss
-    server: ru01.ofopp.com
-    port: 22001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇦🇷 阿根廷 01
-    type: ss
-    server: ar01.ofopp.com
-    port: 22001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇬🇧 英国 01
-    type: ss
-    server: gb01.ofopp.com
-    port: 15001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇬🇧 英国 02
-    type: ss
-    server: gb02.ofopp.com
-    port: 15002
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
-    udp: true
-  - name: 🇩🇪 德国 01
-    type: ss
-    server: de01.ofopp.com
-    port: 17001
-    cipher: aes-256-gcm
-    password: 76f00418-2d5b-4dc2-8181-fe5f04af4cc1
+  - name: 韩国 - 4
+    type: vmess
+    server: 41e092.5553-3121-f211.cfd
+    port: 80
+    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: kr04s.5553-3121-f211.cfd
+    ws-path: /
+    ws-headers:
+      Host: kr04s.5553-3121-f211.cfd
     udp: true
