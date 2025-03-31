@@ -1,15 +1,269 @@
 proxies:
-  - name: "[直连]US美国 A"
-    server: us.milkcloud.org
-    port: 25949
+  - name: "[vmess][中转]HK香港 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 55693
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]HK香港 B x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 38991
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]TW台湾 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 53455
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]TW台湾 B x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 24525
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]TW台湾家宽 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 13429
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]TW台湾家宽 B x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 35920
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]KR韩国家宽 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 32400
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]JP日本家宽 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 31233
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]JP日本 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 20052
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]JP日本 B x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 19742
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]SG新加坡 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 13016
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vless][直连]US美国(三网优化) B x0.1"
+    type: vless
+    server: us.6rguyesfdhvbz.uk
+    port: 42342
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: firefox
+  - name: "[vless][直连]US美国家宽(三网优化) B x1"
+    type: vless
+    server: us.6rguyesfdhvbz.uk
+    port: 34555
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: safari
+  - name: "[vless][直连]HK香港(移动优化) B x1"
+    type: vless
+    server: 6rguyesfdhvbz.uk
+    port: 32499
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: edge
+  - name: "[vless][直连]TW台湾(移动优化) B x1"
+    type: vless
+    server: 6rguyesfdhvbz.uk
+    port: 54000
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: qq
+  - name: "[vless][直连]TW台湾家宽(移动优化) A x1"
+    type: vless
+    server: 6rguyesfdhvbz.uk
+    port: 24322
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: edge
+  - name: "[vless][直连]JP日本(移动优化) B x1"
+    type: vless
+    server: 6rguyesfdhvbz.uk
+    port: 54234
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: ios
+  - name: "[vless][直连]SG新加坡(移动优化) B x1"
+    type: vless
+    server: 6rguyesfdhvbz.uk
+    port: 52545
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: edge
+  - name: "[vless][直连]RU俄罗斯 B x0.5 (三网优化)"
+    type: vless
+    server: ru.6rguyesfdhvbz.uk
+    port: 23400
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: addons.mozilla.org
+    reality-opts:
+      public-key: uXbCkBXmRczm3GXm5ziDrJ19q-4CG0xqT9oZGAg4-gw
+      short-id: f6a68b62
+    client-fingerprint: safari
+  - name: "[Hy2][直连]US美国(三网优化) A x0.1"
+    server: us.6rguyesfdhvbz.uk
+    port: 10000
     sni: us.milkcloud.org
     up: 1000
     down: 1000
     skip-cert-verify: false
     type: hysteria2
     password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-  - name: "[直连]RU俄罗斯 A"
-    server: ru.milkcloud.org
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+  - name: "[Hy2][直连]HK香港(移动优化) A x1"
+    server: 6rguyesfdhvbz.uk
+    port: 11010
+    sni: aw.milkcloud.org
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    type: hysteria2
+    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+  - name: "[Hy2][直连]TW台湾(移动优化) A x1"
+    server: 6rguyesfdhvbz.uk
+    port: 12020
+    sni: tw2.milkcloud.org
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    type: hysteria2
+    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+  - name: "[Hy2][直连]JP日本(移动优化) A x1"
+    server: 6rguyesfdhvbz.uk
+    port: 13030
+    sni: jp.milkcloud.org
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    type: hysteria2
+    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+  - name: "[Hy2][直连]SG新加坡(移动优化) A x1"
+    server: 6rguyesfdhvbz.uk
+    port: 14040
+    sni: sg.milkcloud.org
+    up: 1000
+    down: 1000
+    skip-cert-verify: false
+    type: hysteria2
+    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+  - name: "[Hy2][直连]RU俄罗斯 A x0.3 (三网优化)"
+    server: ru.6rguyesfdhvbz.uk
     port: 14329
     sni: ru.milkcloud.org
     up: 1000
@@ -19,422 +273,65 @@ proxies:
     password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
     obfs: salamander
     obfs-password: NDA0YTI5YmZjNzkwY2M3Yg==
-  - name: "[直连]DE德国 A"
-    server: ru.milkcloud.org
-    port: 29470
-    sni: de.milkcloud.org
-    up: 1000
-    down: 1000
-    skip-cert-verify: false
-    type: hysteria2
-    password: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    obfs: salamander
-    obfs-password: NDA0YTI5YmZjNzkwY2M3Yg==
-  - name: "[中转]AU澳大利亚"
+  - name: "[vmess]下方为小众地区节点"
     type: vmess
-    server: a.milkcloud.org
-    port: 23443
-    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "[中转]VN越南家宽"
-    type: vmess
-    server: a.milkcloud.org
+    server: a.6rguyesfdhvbz.uk
     port: 34900
     uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
     alterId: 0
     cipher: auto
     udp: true
-  - name: "[中转]TH泰国 A x1"
+  - name: "[vmess][中转]AU澳大利亚 A x3"
     type: vmess
-    server: a.milkcloud.org
+    server: a.6rguyesfdhvbz.uk
+    port: 23443
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vmess][中转]VN越南家宽 A x3"
+    type: vmess
+    server: a.6rguyesfdhvbz.uk
+    port: 34900
+    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "[vless][直连]TH泰国(移动优化) B x1"
+    type: vless
+    server: 6rguyesfdhvbz.uk
     port: 34509
     uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
     alterId: 0
     cipher: auto
     udp: true
-  - name: "[中转]IN印度 A x1"
-    type: vmess
-    server: a.milkcloud.org
-    port: 19789
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: qq
+  - name: "[vless][直连]CA加拿大(移动优化) B x1"
+    type: vless
+    server: us.6rguyesfdhvbz.uk
+    port: 34573
     uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
     alterId: 0
     cipher: auto
     udp: true
-  - name: "[中转]MM缅甸 A x1"
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.icloud.com
+    reality-opts:
+      public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+      short-id: 09f087ce
+    client-fingerprint: qq
+  - name: "[vmess][中转]AQ南极洲 A x3"
     type: vmess
-    server: a.milkcloud.org
-    port: 24350
-    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "[中转]KR韩国 A x1"
-    type: vmess
-    server: a.milkcloud.org
-    port: 24539
-    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "[中转]TR土耳其 A x1"
-    type: vmess
-    server: a.milkcloud.org
-    port: 54323
-    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "[中转]CA加拿大 A x1"
-    type: vmess
-    server: a.milkcloud.org
-    port: 24307
-    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "[中转]UK英国 A x1"
-    type: vmess
-    server: a.milkcloud.org
-    port: 24735
-    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "[中转]NG尼日利亚 A x1"
-    type: vmess
-    server: a.milkcloud.org
-    port: 35487
-    uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "[中转]AQ南极洲 A x1"
-    type: vmess
-    server: a.milkcloud.org
+    server: a.6rguyesfdhvbz.uk
     port: 52306
     uuid: 9f1e2094-2550-4200-b3f0-7bf90fb08871
     alterId: 0
     cipher: auto
-    udp: true
-  - name: 香港 - 1
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hk01s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: hk01s.5553-3121-f211.cfd
-    udp: true
-  - name: 新加坡 - 1
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sg01s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: sg01s.5553-3121-f211.cfd
-    udp: true
-  - name: 美国 - 1
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us01s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: us01s.5553-3121-f211.cfd
-    udp: true
-  - name: ?? 日本 - 1
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: jp01s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: jp01s.5553-3121-f211.cfd
-    udp: true
-  - name: 韩国 - 1
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: kr01s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: kr01s.5553-3121-f211.cfd
-    udp: true
-  - name: 香港 - 2
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hk02s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: hk02s.5553-3121-f211.cfd
-    udp: true
-  - name: 新加坡 - 2
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sg02s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: sg02s.5553-3121-f211.cfd
-    udp: true
-  - name: 美国 - 2
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us02s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: us02s.5553-3121-f211.cfd
-    udp: true
-  - name: 日本 - 2
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: jp02s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: jp02s.5553-3121-f211.cfd
-    udp: true
-  - name: 韩国 - 2
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: kr02s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: kr02s.5553-3121-f211.cfd
-    udp: true
-  - name: 香港 - 3
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hk03s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: hk03s.5553-3121-f211.cfd
-    udp: true
-  - name: 新加坡 - 3
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sg03s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: sg03s.5553-3121-f211.cfd
-    udp: true
-  - name: 美国 - 3
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us03s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: us03s.5553-3121-f211.cfd
-    udp: true
-  - name: 日本 - 3
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: jp03s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: jp03s.5553-3121-f211.cfd
-    udp: true
-  - name: 韩国 - 3
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: kr03s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: kr03s.5553-3121-f211.cfd
-    udp: true
-  - name: 香港 - 4
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hk04s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: hk04s.5553-3121-f211.cfd
-    udp: true
-  - name: 新加坡 - 4
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sg04s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: sg04s.5553-3121-f211.cfd
-    udp: true
-  - name: 美国 - 4
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us04s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: us04s.5553-3121-f211.cfd
-    udp: true
-  - name: 日本 - 4
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: jp04s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: jp04s.5553-3121-f211.cfd
-    udp: true
-  - name: 韩国 - 4
-    type: vmess
-    server: 41e092.5553-3121-f211.cfd
-    port: 80
-    uuid: 2aaca9ff-65dc-47e1-93f9-be7bb2c4c504
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: kr04s.5553-3121-f211.cfd
-    ws-path: /
-    ws-headers:
-      Host: kr04s.5553-3121-f211.cfd
     udp: true
