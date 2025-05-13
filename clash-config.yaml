@@ -1,4 +1,36 @@
 proxies:
+  -
+    name: '中国-加拿大 IPLC C01'
+    type: ss
+    server: ca01.htz.wtf
+    port: 29191
+    cipher: rc4-md5
+    password: fwjJxq
+    udp: true
+  -
+    name: '中国-台湾'
+    type: ss
+    server: twgame05.htz.wtf
+    port: 29191
+    cipher: rc4-md5
+    password: fwjJxq
+    udp: true
+  -
+    name: '中国-日本'
+    type: ss
+    server: jp06.htz.wtf
+    port: 29191
+    cipher: rc4-md5
+    password: fwjJxq
+    udp: true
+  -
+    name: '中国-香港'
+    type: ss
+    server: sg14.htz.wtf
+    port: 29191
+    cipher: rc4-md5
+    password: fwjJxq
+    udp: true
   - name: "[vmess][中转]HK香港 A x3"
     type: vmess
     server: a.6rguyesfdhvbz.uk
