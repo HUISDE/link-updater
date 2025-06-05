@@ -8,7 +8,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '中国-台湾'
+    name: '中国-台湾2'
     type: ss
     server: twgame04.htz.wtf
     port: 29191
