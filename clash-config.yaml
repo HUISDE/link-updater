@@ -1,6 +1,6 @@
 proxies:
   -
-    name: '中国-印度'
+    name: '中国-印度2'
     type: ss
     server: in04.htz.wtf
     port: 29191
@@ -16,7 +16,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '中国-澳大利亚'
+    name: '中国-澳大利亚2'
     type: ss
     server: au03.htz.wtf
     port: 29191
@@ -24,7 +24,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '中国-爱尔兰'
+    name: '中国-爱尔兰2'
     type: ss
     server: ir01.htz.wtf
     port: 29191
@@ -32,7 +32,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '中国-英国伦敦'
+    name: '中国-英国伦敦2'
     type: ss
     server: uk02.htz.wtf
     port: 29191
@@ -40,7 +40,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '中国-韩国'
+    name: '中国-韩国2'
     type: ss
     server: kr04.htz.wtf
     port: 29191
@@ -48,7 +48,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '俄罗斯'
+    name: '俄罗斯2'
     type: ss
     server: ru06.fjk.wtf
     port: 29191
@@ -56,7 +56,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '德国'
+    name: '德国2'
     type: ss
     server: ge03.htz.wtf
     port: 29191
@@ -64,7 +64,7 @@ proxies:
     password: fwjJxq
     udp: true
   -
-    name: '新加坡'
+    name: '新加坡2'
     type: ss
     server: sgp05.htz.wtf
     port: 29191
